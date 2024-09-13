@@ -77,4 +77,23 @@ $ head /etc/passwd | tail –5 | sort
 
 ![tugascl8](https://github.com/user-attachments/assets/57de21eb-c4cc-411f-b567-fffe198b1013)
 
+Saya akan jelaskan maksud dari command di setiap barisnya :
+
+**A. cat /etc/passwd | sort | pr -n | grep tty03**
+
+Penjelasan : pada baris kode ini berfungsi untuk mencari entri dalam file /etc/passwd yang berisi informasi terkait dengan "tty03", setelah isi file tersebut diurutkan dan diberi nomor baris. Namun, dikarenakan tidak ada entry di tty03 di dalam /etc/passwd maka tidak ada output yang muncul (cat /etc/passwd untuk menampilkan isi passwd, sort untuk mengurutkan nya, pr -n untuk memberi nomor pada setiap baris)
+
+**B. find /etc –print | head** 
+
+Penjelasan : pada baris kode ini berfungsi untuk mencari semua file dan direktori pada /etc kemudian di tampilkan, tapi karena saya menggunakan command head maka yang tampil hanya 10 baris pertama saja
+
+**C. head /etc/passwd | tail –5 | sort**
+
+Penjelasan : pada baris kode ini berfungsi untuk menampilkan 10 baris pertama dari isi passwd kemudian diambil 5 baris terakhir lalu di urutkan kemudian ditampilkan sebagai output 
+
+9. Gunakan perintah $ who | cat | cat | sort | pr | head | cat | tail dan perhatikan hasilnya
+
 ![tugascl9](https://github.com/user-attachments/assets/d60eaab3-5166-4ed1-b656-787a886a5c5c)
+
+Command ini berfungsi untuk mengurutkan daftar pengguna yang sedang login, lalu memformat tampilannya menjadi beberapa kolom dengan header halaman. Setelah itu, perintah hanya menampilkan 10 baris pertama, dan hasil akhirnya tidak berubah karena penggunaan `cat | tail` hanya meneruskan output dari `head` tanpa ada perubahan apa pun.
+
