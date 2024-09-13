@@ -61,6 +61,20 @@ Dengan menggunakan notasi here document (<@@@ …@@@)
 
 Untuk mengurutkan suatu inputan secara langsung, bukan dari file biasa, maka kita gunakan command sort <<@@@ kemudian enter dan ketik nama kota seperti Jakarta, Bandung dll setelah sudah selesai ketik @@@ maka inputan data yang kita ketik tadi akan terurut dan otomatis ditampilkan (command "<<@@@" ini adalah notasi yang berfungsi untuk menyelesaikan/menghentikan input ketika kita sudah selesai menginput data yang ingin diurutkan) 
 
+7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru
+
 ![tugascl7](https://github.com/user-attachments/assets/de3ceb82-b354-41e9-9fac-519269e9c4b8)
+
+untuk melakukan itu kita cukup gunakan command wc "nama file yang ingin dihitung jumlah barisnya" contohnya wc filebaru.urut lalu enter maka akan muncul output "74 308 4575 filebaru.urut" angka angka itu mewakilkan jumlah baris, kata dan karakter (74 = jumlah baris, 308 = jumlah kata, 4575 = jumlah karakter)
+
+8. Gunakan perintah di bawah ini dan perhatikan hasilnya.
+
+$ cat /etc/passwd | sort | pr –n | grep tty03 
+
+$ find /etc –print | head 
+
+$ head /etc/passwd | tail –5 | sort 
+
 ![tugascl8](https://github.com/user-attachments/assets/57de21eb-c4cc-411f-b567-fffe198b1013)
+
 ![tugascl9](https://github.com/user-attachments/assets/d60eaab3-5166-4ed1-b656-787a886a5c5c)
