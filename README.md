@@ -95,5 +95,5 @@ Penjelasan : pada baris kode ini berfungsi untuk menampilkan 10 baris pertama da
 
 ![tugascl9](https://github.com/user-attachments/assets/d60eaab3-5166-4ed1-b656-787a886a5c5c)
 
-Command ini berfungsi untuk mengurutkan daftar pengguna yang sedang login, lalu memformat tampilannya menjadi beberapa kolom dengan header halaman. Setelah itu, perintah hanya menampilkan 10 baris pertama, dan hasil akhirnya tidak berubah karena penggunaan `cat | tail` hanya meneruskan output dari `head` tanpa ada perubahan apa pun.
+Command ini berfungsi untuk mengurutkan daftar pengguna yang sedang login, lalu memformat tampilannya menjadi beberapa kolom dengan header halaman. Setelah itu, perintah hanya menampilkan 10 baris pertama, dan hasil akhirnya tidak berubah karena penggunaan cat | tail hanya meneruskan output dari head tanpa ada perubahan apa pun.
 
