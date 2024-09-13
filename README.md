@@ -58,6 +58,9 @@ Lampung
 Dengan menggunakan notasi here document (<@@@ …@@@) 
 
 ![tugascl6](https://github.com/user-attachments/assets/30b8ef13-c573-400e-9f9f-88895bf9244c)
+
+Untuk mengurutkan suatu inputan secara langsung, bukan dari file biasa, maka kita gunakan command sort <<@@@ kemudian enter dan ketik nama kota seperti Jakarta, Bandung dll setelah sudah selesai ketik @@@ maka inputan data yang kita ketik tadi akan terurut dan otomatis ditampilkan (command "<<@@@" ini adalah notasi yang berfungsi untuk menyelesaikan/menghentikan input ketika kita sudah selesai menginput data yang ingin diurutkan) 
+
 ![tugascl7](https://github.com/user-attachments/assets/de3ceb82-b354-41e9-9fac-519269e9c4b8)
 ![tugascl8](https://github.com/user-attachments/assets/57de21eb-c4cc-411f-b567-fffe198b1013)
 ![tugascl9](https://github.com/user-attachments/assets/d60eaab3-5166-4ed1-b656-787a886a5c5c)
