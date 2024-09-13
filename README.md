@@ -21,8 +21,22 @@ ke file baru tanpa menghapus file baru sebelumnya.
 
 ![tugascl2](https://github.com/user-attachments/assets/7456ddd2-df15-44f5-b35c-1b4558530b61)
 
+Dikarenakan passwd bukanlah sebuah direktori jadi kita gunakan command cat /etc/passwd kemudian enter untuk melihat isinya, bisa juga langsung simpan output nya ke filebaru.txt dengan menambahkan >> filebaru.txt setelah command cat (note : dikarenakan kita ingin menyimpan output passwd ke filebaru.txt tanpa menghapus isi file lama, maka kita harus menggunakan ">>" jangan ">" karena jika ">" maka isi file lama akan diganti dengan isi file yang baru)
+
+3. Urutkan file baru dengan cara membelokkan standard input. 
+
 ![tugascl3](https://github.com/user-attachments/assets/a8e29811-a24d-4b8c-ad0c-1e52586da67c)
+
+Setelah kita berhasil menyimpan output passwd ke filebaru.txt langkah selanjutnya adalah mengurutkan isi file nya sesuai abjad dengan membelokkan standar input, jika sebelumnya kita membelokkan standar output menggunakan >> sekarang kita gunakan << untuk membelokkan standar input, jadi command nya adalah sort < filebaru.txt lalu enter maka isi file dari flebaru.txt akan terurutkan.
+
+4. Urutkan file baru dengan cara membelokkan standard input dan standard output ke file baru.urut.
+
 ![tugascl4](https://github.com/user-attachments/assets/748a3eec-cf65-42e2-96aa-2e0fcdee5f1d)
+
+Di bagian ini, hasil dari pengurutan isi filebaru.txt berhasil dilakukan, kita lakukan penyimpanan dari output nya itu ke file yang bernama filebaru.urut menggunakan command sort < filebaru.txt > filebaru.urut, bisa juga pakai command sort filebaru.txt > filebaru.urut
+
+
+
 ![tugascl5](https://github.com/user-attachments/assets/addf0a10-05b8-4b0e-8445-7cd433a10f65)
 ![tugascl6](https://github.com/user-attachments/assets/30b8ef13-c573-400e-9f9f-88895bf9244c)
 ![tugascl7](https://github.com/user-attachments/assets/de3ceb82-b354-41e9-9fac-519269e9c4b8)
